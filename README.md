@@ -10,4 +10,6 @@ Import-Module 'C:\Downloads\Split-PDF.psm1'
 ```
 
 ### Example
+```PowerShell
 Split-PDF -Source 'C:\Temp\Original.pdf' -Output 'C:\Temp\NewFile.pdf' -StartPg 4 -EndPg 8
+```
