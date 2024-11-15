@@ -2,11 +2,11 @@
 ## Assembly & Config
 ######################################
 ## Load needed assemblies for iText PDF
-[System.Reflection.Assembly]::LoadFrom('.\Resources\BouncyCastle.Crypto.dll') | Out-Null
-[System.Reflection.Assembly]::LoadFrom('.\Resources\Common.Logging.Core.dll') | Out-Null
-[System.Reflection.Assembly]::LoadFrom('.\Resources\Common.Logging.dll') | Out-Null
-[System.Reflection.Assembly]::LoadFrom('.\Resources\itext.io.dll') | Out-Null
-[System.Reflection.Assembly]::LoadFrom('.\Resources\itext.kernel.dll') | Out-Null
+[System.Reflection.Assembly]::LoadFrom("$PSScriptRoot\Resources\BouncyCastle.Crypto.dll") | Out-Null
+[System.Reflection.Assembly]::LoadFrom("$PSScriptRoot\Resources\Common.Logging.Core.dll") | Out-Null
+[System.Reflection.Assembly]::LoadFrom("$PSScriptRoot\Resources\Common.Logging.dll") | Out-Null
+[System.Reflection.Assembly]::LoadFrom("$PSScriptRoot\Resources\itext.io.dll") | Out-Null
+[System.Reflection.Assembly]::LoadFrom("$PSScriptRoot\Resources\itext.kernel.dll") | Out-Null
 
 ####################################
 ## Functions
